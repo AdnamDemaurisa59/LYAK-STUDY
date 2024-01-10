@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.leparisien.fr/resizer/FTZ9nIpctTDc4c-OYaET46KohQY=/932x582/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/CM7RPUY2OBPUROBLYYQL4SHWII.jpg");
+}
+
+header {
+    background-color: #395C9F;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+    /* Ajoute une bordure en bas au survol */ 
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+div {
+    padding: 20px;
+    background-color: #898b8d;
+    max-width: 50cm;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color:white;
+}
+
+section p {
+    color:whitesmoke;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+}
+
+div input {
+    width: 100%;
+    height: 30px;
+}
+
+#home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF5733;
+    color: white;
+    padding: 10px 40px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: red;
+}
+
+#opportunities, #featured-projects {
+    margin: 20px;
+}
+
+#chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#chatBox {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#chatHeader {
+    background-color: #FF5733;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: move;
+    user-select: none;
+}
+
+#closeChat {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#chatMessages {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+#messageInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#sendMessage {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #395C9F;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color:white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+    /* Ajoute une bordure en bas au survol */ 
+}
